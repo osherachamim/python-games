@@ -12,7 +12,7 @@ print(
 """)
 
 while True:
-    guess = int(input("Enter your guess: "))
+    guess = int(input("Enter your guess between 1-10: "))
     
     if guess == secret_number:
         print("Congratulations! You've guessed the secret number!")
